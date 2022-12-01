@@ -14,9 +14,9 @@ URL: `http://mage244.com/admin/`
 
 ## Preview will be added
 
-![salesman-option](/readme-images/salesman-option.png "Salesman Option")
-![salesman-grid](/readme-images/salesman-grid.png "Salesman Grid")
-![salesman-form](/readme-images/salesman-form.png "Salesman Form")
+![salesman-option](/readme-images/salesman_option.png "Salesman Option")
+![salesman-grid](/readme-images/salesman_grid.png "Salesman Grid")
+![salesman-form](/readme-images/salesman_form.png "Salesman Form")
 
 ## Settings
 
