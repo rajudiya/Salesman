@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xsi:noNamespaceSchemaLocation="urn:magento:framework:Setup/Declaration/Schema/etc/schema.xsd">
+    <table name="Vendername_manu" resource="default" engine="innodb"
+           comment="Costomer Table">
+        <column xsi:type="smallint" name="id" padding="10" identity="true" unsigned="true" nullable="false" comment="Costomer id "/>
+        <column xsi:type="varchar" name="name" nullable="false" length="255" comment="Costomer Name"/>
+        <column xsi:type="varchar" length="255" name="phone" nullable="false" default="0" comment="Costomer Phone Number"/>
+        <column xsi:type="varchar" name="email" nullable="false" length="50" comment="Costomer Email Id"/>
+        <column xsi:type="datetime" name="created_at" default="CURRENT_TIMESTAMP" comment="Vendername Created"/>
+        <column xsi:type="datetime" name="update_at" default="CURRENT_TIMESTAMP" comment="Vendername Updated"/>
+        <constraint xsi:type="primary" referenceId="PRIMARY">
+        <column     name="id"/>
+        </constraint>
+    </table>
+</schema>

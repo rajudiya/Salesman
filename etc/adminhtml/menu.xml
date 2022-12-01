@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add 
+            id="Vendername_Salesman::Vendernamesalesman" 
+            title="Vendername" 
+            module="Vendername_Salesman" 
+            sortOrder="10" 
+            resource="Vendername_Salesman::Vendernamesalesman"
+        />
+        <add 
+            id="Vendername_Salesman::add_row" 
+            title=" Vendername Manu" 
+            module="Vendername_Salesman" 
+            sortOrder="20" 
+            parent="Vendername_Salesman::Vendernamesalesman" 
+            action="salesman/salesman" 
+            resource="Vendername_Salesman::add_row"
+        />
+    </menu>
+</config>
